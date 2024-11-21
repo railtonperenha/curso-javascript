@@ -1,0 +1,15 @@
+/*
+Calcule a porcentagem entre 2 números.
+Exemplo: 25% de 40 é 10.
+Fórmula da porcentagem: (y / x) * 100
+*/
+
+let x = 40;
+let y = 10
+
+function calcPct (x, y) {
+    return (y / x) * 100;
+}
+
+let pct = calcPct(x, y);
+console.log(`${pct}% de ${x} é ${y}`);
